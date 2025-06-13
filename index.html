@@ -27,24 +27,51 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body style="font-family: 'Poppins', sans-serif;">
-  <!-- Header / Navbar -->
-  <header class="bg-light py-3 shadow-sm fixed-top">
-    <div class="container d-flex justify-content-between align-items-center">
-      <div class="logo fw-bold fs-4">Vaibhav</div>
-      <nav>
-        <ul class="nav">
-          <li class="nav-item"><a class="nav-link text-dark" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link text-dark" href="#">About Me</a></li>
-          <li class="nav-item"><a class="nav-link text-dark" href="#">Skills</a></li>
-          <li class="nav-item"><a class="nav-link text-dark" href="#">Projects</a></li>
-          <li class="nav-item"><a class="nav-link text-dark" href="#">Contact</a></li>
-          <li class="nav-item">
-            <a href="#" class="btn btn-primary ms-2">Download CV</a>
-          </li>
-        </ul>
-      </nav>
+ <!-- Header / Navbar -->
+<header class="bg-light shadow-sm fixed-top">
+  <nav class="navbar navbar-expand-lg bg-light container">
+    <!-- Brand -->
+    <a class="navbar-brand fw-bold fs-4" href="#">Vaibhav</a>
+
+    <!-- Toggler -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#mainNavbar"
+      aria-controls="mainNavbar"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
+      <ul class="navbar-nav align-items-lg-center">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About&nbsp;Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <li class="nav-item ms-lg-2">
+          <a class="btn btn-primary" href="#">Download&nbsp;CV</a>
+        </li>
+      </ul>
     </div>
-  </header>
+  </nav>
+</header>
+
 
   <!-- Hero Section -->
   <section class="hero mt-5 pt-5">
